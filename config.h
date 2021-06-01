@@ -7,7 +7,7 @@ static const char *fonts[] = {
 	"Fira Code:size=11"
 };
 
-static const char bg_color[]			= "#111015";
+static const char bg_color[]		= "#111015";
 static const char col_gray1[]		= "#222222";
 static const char col_gray2[]		= "#444444";
 static const char col_gray3[]		= "#bbbbbb";
