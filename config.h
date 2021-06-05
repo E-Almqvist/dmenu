@@ -22,7 +22,7 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOut] =	{ col_gray4, col_cyan },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines = 8;
+static unsigned int lines = 16;
 
 /*
  * Characters not considered part of a word while deleting words
