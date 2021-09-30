@@ -7,7 +7,7 @@ static const char *fonts[] = {
 	"Source Code Pro:size=12"
 };
 
-static const char bg_color[]		= "#0c1115";
+static const char bg_color[]		= "#282c34";
 static const char col_foreg[]		= "#fefefe";
 static const char col_cyan[]		= "#5f819d";
 static const char col_gray[]		= "#444444";
