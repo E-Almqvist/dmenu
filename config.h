@@ -4,7 +4,7 @@
 static int topbar = 1;					  /* -b  option; if 0, dmenu appears at bottom	 */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Space Mono:size=14"
+	"Space Mono:size=10"
 };
 
 static const char bg_color[]		= "#282a34";
@@ -20,7 +20,7 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOut] =	{ col_foreg, col_cyan },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines = 16;
+static unsigned int lines = 8;
 
 /*
  * Characters not considered part of a word while deleting words

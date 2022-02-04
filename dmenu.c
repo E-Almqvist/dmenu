@@ -176,7 +176,7 @@ drawmenu(void)
 			drw_text(drw, mw - w, 0, w, bh, lrpad / 2, ">", 0);
 		}
 	}
-	drw_map(drw, win, 0, 0, mw, mh);
+	drw_map(drw, win, 0, 0, mw - 2*border_width, mh);
 }
 
 static void
