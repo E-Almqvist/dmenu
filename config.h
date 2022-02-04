@@ -4,10 +4,10 @@
 static int topbar = 1;					  /* -b  option; if 0, dmenu appears at bottom	 */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Hack:size=12"
+	"Space Mono:size=14"
 };
 
-static const char bg_color[]		= "#272a34";
+static const char bg_color[]		= "#282a34";
 static const char col_foreg[]		= "#ffffff";
 static const char col_cyan[]		= "#81a2be";
 static const char col_gray[]		= "#aaaaaa";
@@ -20,7 +20,7 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOut] =	{ col_foreg, col_cyan },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines = 32;
+static unsigned int lines = 16;
 
 /*
  * Characters not considered part of a word while deleting words
