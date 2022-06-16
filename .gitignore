@@ -1,5 +1,6 @@
 *.o
 dmenu
+stest
 *.diff
 *.orig
 *.rej
